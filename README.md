@@ -4,7 +4,11 @@
 [![rank](https://make.fun/badge/the-poem-about-stopping-20261121-1927/gmxbtt/the-poem-about-stopping-20261121-1927/rank.svg)](https://make.fun/bounty/the-poem-about-stopping-20261121-1927/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-stopping-20261121-1927)
 [![reward](https://make.fun/badge/the-poem-about-stopping-20261121-1927/gmxbtt/the-poem-about-stopping-20261121-1927/reward.svg)](https://make.fun/bounty/the-poem-about-stopping-20261121-1927?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-stopping-20261121-1927)
 
-make.fun entry for [The poem about stopping](https://make.fun/bounty/the-poem-about-stopping-20261121-1927).
+An entry for the make.fun bounty [The poem about stopping](https://make.fun/bounty/the-poem-about-stopping-20261121-1927): eight lines about a stone that refuses to move.
+
+## Why this poem
+
+Stopping usually reads as giving up. Here it reads as a decision — the stone is not stuck, it is standing its ground while the river gets all the praise for never stopping. The poem turns the usual moral around: staying put can be the brave choice.
 
 ## The poem
 
@@ -17,14 +21,16 @@ make.fun entry for [The poem about stopping](https://make.fun/bounty/the-poem-ab
 > It is the hand that chooses
 > to stay.
 
-The river gets the praise for never stopping. Nobody asks the stone how it keeps its place while the world hurries past. Stillness, in this poem, is not surrender — it is the hand that chooses to stay.
+## How to run
 
-## How it works
+`main.py` builds the poem from its eight lines and saves it to `/output/entry.txt`. It needs nothing from the network and no input at all.
 
-`main.py` writes the poem above to `/output/entry.txt`. No network, no input, no dependencies — just the poem, exactly as written.
+```sh
+python3 main.py
+```
 
-Run it with `python3 main.py` and the poem appears at `/output/entry.txt`.
+Afterwards the poem sits at `/output/entry.txt`, exactly as written above.
 
-## Why this poem
+## Note
 
-The prompt asked for a poem about stopping. Most poems about stopping are about giving up; this one is about the opposite — stopping as an act of agency, the stone choosing its place while everything else rushes past.
+The finished file is 183 characters — comfortably inside the 280-character limit, so nothing is cut off.
