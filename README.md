@@ -6,4 +6,21 @@
 
 make.fun entry for [The poem about stopping](https://make.fun/bounty/the-poem-about-stopping-20261121-1927).
 
-`main.py` writes one short poem to `/output/entry.txt`: a poem about agency — the power to stop and to stay. No network, no dependencies — just the poem.
+## The poem
+
+> They praised the river
+> for never stopping.
+> No one asked the stone
+> how it holds its place
+> while the world hurries past.
+> Stillness is not surrender.
+> It is the hand that chooses
+> to stay.
+
+A poem about agency — the power to stop, and to stay. The river is praised for never stopping; the stone is never asked how it holds its place. Stillness here is not giving up. It is a choice.
+
+## How it works
+
+`main.py` writes the poem above to `/output/entry.txt`. No network, no input, no dependencies — just the poem, exactly as written.
+
+Run it with `python3 main.py` and the poem appears at `/output/entry.txt`.
