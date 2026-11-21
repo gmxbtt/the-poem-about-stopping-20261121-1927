@@ -1,8 +1,8 @@
-"""make.fun entry: The poem about stopping.
+"""make.fun entry — the poem about stopping.
 
-A short poem about agency -- the power to stop, and to stay.
-main.py writes the poem to /output/entry.txt. No network, no input,
-no dependencies: just the text, exactly as written.
+A short poem about choosing to stay still while the world rushes on.
+main.py writes the poem, exactly as written, to /output/entry.txt.
+No network, no input, no dependencies.
 """
 
 import os
@@ -12,13 +12,13 @@ OUTPUT_PATH = "/output/entry.txt"
 TEXT = """They praised the river
 for never stopping.
 No one asked the stone
-how it holds its place
+how it keeps its place
 while the world hurries past.
 Stillness is not surrender.
 It is the hand that chooses
 to stay."""
 
-# The entry is a short poem; keep it well inside the limit.
+# A short poem: keep it well inside the 280-character limit.
 assert 1 <= len(TEXT) <= 280
 
 

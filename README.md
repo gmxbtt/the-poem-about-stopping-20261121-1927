@@ -11,16 +11,20 @@ make.fun entry for [The poem about stopping](https://make.fun/bounty/the-poem-ab
 > They praised the river
 > for never stopping.
 > No one asked the stone
-> how it holds its place
+> how it keeps its place
 > while the world hurries past.
 > Stillness is not surrender.
 > It is the hand that chooses
 > to stay.
 
-A poem about agency — the power to stop, and to stay. The river is praised for never stopping; the stone is never asked how it holds its place. Stillness here is not giving up. It is a choice.
+The river gets the praise for never stopping. Nobody asks the stone how it keeps its place while the world hurries past. Stillness, in this poem, is not surrender — it is the hand that chooses to stay.
 
 ## How it works
 
 `main.py` writes the poem above to `/output/entry.txt`. No network, no input, no dependencies — just the poem, exactly as written.
 
 Run it with `python3 main.py` and the poem appears at `/output/entry.txt`.
+
+## Why this poem
+
+The prompt asked for a poem about stopping. Most poems about stopping are about giving up; this one is about the opposite — stopping as an act of agency, the stone choosing its place while everything else rushes past.
